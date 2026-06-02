@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #fdfbfb, #ebedee);
+    color: #333;
+}
+
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 100%;
+    background: linear-gradient(180deg, #f87542, #f7b0b0);
+    padding-top: 30px;
+    box-shadow: 3px 0 10px rgba(0,0,0,0.2);
+    text-align: left;
+}
+
+nav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+nav a img {
+    width: 24px;  
+    height: 24+px;
+    object-fit: contain;
+}
+
+nav a:hover{
+    background-color: #818181;
+    border-radius: 5px;
+    transform: translateX(5px);
+}
+
+.contenedor{
+    background: rgb(255, 255, 255);
+    width: 80%;
+    margin-left: 250px;  
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: solid 2px rgb(2, 14, 27);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+header{
+    height: 400px;
+    background-image: url("imagenes/portada\ de\ infectados.png");
+    background-size: cover;
+    background-position: center;
+}
+
+main{
+    background: #ffffff;
+    padding: 20px 30px;
+}
+
+main .foto{
+    text-align: center;
+}
+
+main .foto img{
+    width: 150px;
+    height: 150px;
+    background-color: teal;
+    border-radius: 50%;
+    margin: -90px 0 20px 0;
+    border: 6px solid #ffffff;
+    object-fit: cover;
+}
+
+footer{
+    background: linear-gradient(90deg, rgb(227, 157, 36), rgb(244, 175, 123));
+    text-align: center;
+    padding: 25px;
+    color: #ffffff;
+    border: solid 2px rgb(2, 14, 27);
+    border-radius: 18px;
+}
+
+footer a{
+    color: #dbe1e8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
